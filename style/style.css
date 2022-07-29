@@ -15,8 +15,8 @@
 }
 
 :root {
-  /* --main-color: #aebb14;
-  --primary-color: #191d2b; */
+  --main-color: #0067f9;
+  --primary-color: #f1f1f1;
   --main-transition: all 0.3s ease-in-out;
 }
 html {
@@ -155,7 +155,7 @@ section {
 }
 /* MAIN SECTION */
 .main-section {
-  background-color: #f1f1f1;
+  background-color: var(--primary-color);
 }
 .main-section .container {
   display: flex;
@@ -217,7 +217,7 @@ section {
 header {
   display: flex;
   align-items: center;
-  border-bottom: 3px solid #0067f9;
+  border-bottom: 3px solid var(--main-color);
   padding: 10px 60px 0;
   overflow: hidden;
 }
@@ -313,3 +313,38 @@ header {
   }
 }
 /* End The Problem */
+
+/* Start Solution */
+.solution {
+  background-color: var(--primary-color);
+}
+.solution .header-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.solution .header-container img {
+  max-width: 640px;
+}
+.solution .header-container .heading {
+  color: var(--main-color);
+  margin: 0 0 -50px;
+  position: absolute;
+  left: 400px;
+}
+.solution .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.solution .container .left-side {
+  width: 65%;
+}
+.solution .container .right-side {
+  width: 30%;
+}
+.solution .container .right-side img {
+  width: 100%;
+  object-fit: cover;
+}
+/* End Solution */
