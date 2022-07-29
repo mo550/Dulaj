@@ -54,19 +54,25 @@ body {
     width: 1320px;
   }
 }
+@media (min-width: 1401px) {
+  .container {
+    width: 1800px;
+  }
+}
 /* End Global Style */
 
 /* Start Header */
 header {
   border-bottom: 3px solid #0067f9;
+  overflow: hidden;
 }
 .header .container {
   display: flex;
   align-items: center;
 }
 .header .logo {
-  width: 350px;
-  height: 200px;
+  width: 488px;
+  height: 308px;
   max-width: 100%;
 }
 .header .logo img {
@@ -78,8 +84,8 @@ header {
   margin-left: 100px;
 }
 .header .nav-txt h1 {
-  max-width: 85%;
-  font-size: 30px;
+  font-size: 48px;
   line-height: 1.2;
+  margin: 0;
 }
 /* End Header */
