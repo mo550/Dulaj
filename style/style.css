@@ -141,6 +141,18 @@ section {
     margin-bottom: 35px;
   }
 }
+@media screen and (max-width: 767px) {
+  .inner-container h3 {
+    font-size: 24px;
+  }
+  .inner-container .content .txt {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .heading {
+    margin-bottom: 35px;
+  }
+}
 /* MAIN SECTION */
 .main-section {
   background-color: #f1f1f1;
@@ -191,6 +203,12 @@ section {
   }
   .main-section .img-side {
     margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-section .content-side .txt {
+    font-size: 18px;
+    line-height: 30px;
   }
 }
 /* End Components */
@@ -245,6 +263,14 @@ header {
     text-align: center;
     font-size: 24px;
     margin: 0 0 35px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+  padding: 0 25px;
+  }
+  .header .nav-txt h1 {
+    font-size: 22px;
   }
 }
 /* End Header */
