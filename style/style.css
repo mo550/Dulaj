@@ -283,6 +283,7 @@ header {
   font-size: 1.35rem;
   line-height: 2rem;
   margin-bottom: 40px;
+  text-align: justify;
 }
 .solution .left-side .steps li,
 .impact .steps li {
