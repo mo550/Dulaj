@@ -295,6 +295,13 @@ header {
   line-height: 2rem;
   margin-bottom: 40px;
   text-align: justify;
+  text-justify: distribute;
+  word-spacing: -1px;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -o-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
 }
 .solution .left-side .steps li,
 .impact .steps li {
