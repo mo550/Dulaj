@@ -219,6 +219,9 @@ header {
     justify-content: center;
     flex-direction: column-reverse;
   }
+  .main-section.meeting .container {
+    flex-direction: column;
+  }
   .main-section .content-side,
   .main-section .img-side {
     width: 100%;
@@ -241,17 +244,6 @@ header {
   }
 }
 /* End Components */
-
-/* Start Main Section (Meeting) */
-@media screen and (max-width: 991px) {
-  .meeting .img-side {
-    max-width: 70%;
-  }
-  .main-section.meeting .container {
-    flex-direction: column;
-  }
-}
-/* End Main Section (Meeting) */
 
 /* Start Solution */
 .solution {
@@ -425,13 +417,10 @@ header {
 }
 .impact .lower-section img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
-@media screen and (min-width: 992px) {
-  .impact .lower-section img {
-    max-height: 400px;
-  }
-}
+
 @media screen and (max-width: 991px) {
   .impact .lower-section .container {
     flex-direction: column;
@@ -443,9 +432,6 @@ header {
   .impact .lower-section .left-side {
     text-align: center;
     margin-bottom: 35px;
-  }
-  .impact .lower-section img {
-    max-width: 65%;
   }
 }
 @media screen and (max-width: 767px) {
